@@ -4,7 +4,7 @@ public class WorkFlow {
     private int objid;
     
     
-    public Boolean addWFItem(String step, int objid) {
+    public boolean addWFItem(String step, int objid) {
         return true;
     }
 
@@ -14,6 +14,6 @@ public class WorkFlow {
     }
 
     public countWFItems(String step) {
-        return 3;     
+        return 0;     
     }
 }
