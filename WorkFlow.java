@@ -10,7 +10,7 @@ public class WorkFlow {
 
     public int getNextWFItem(String step) {
         // this.objid++;
-        return 2; 
+        return 1; 
     }
 
     public countWFItems(String step) {
