@@ -13,7 +13,7 @@ public class WorkFlow {
         return 99; 
     }
 
-    public countWFItems(String step) {
-        return 3;     
+    public int countWFItems(String step) {
+        return 0;     
     }
 }
