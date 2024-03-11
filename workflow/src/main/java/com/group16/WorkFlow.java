@@ -1,3 +1,5 @@
+package com.group16;
+
 public class WorkFlow {
     private int wfid;
     private String step; 
