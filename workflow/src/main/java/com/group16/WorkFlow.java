@@ -2,7 +2,7 @@ package com.group16;
 
 public class WorkFlow {
     private int wfid;
-    private String step; 
+    private WorkflowStatus step;
     private int objid;
 
     public Boolean addWFItem(String step, int objid) {
