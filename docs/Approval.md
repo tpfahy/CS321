@@ -9,14 +9,6 @@ class Approval {
     + setCurrentWF()
 }
 
-class ApprovalWorkflow {
-    - currentApproval
-    - validations
-
-    + approve()
-    + allowGenerateEmail()
-
-}
 
 class Workflow {
     << abstract >>
@@ -33,7 +25,6 @@ class ApprovalUI {
     + generateEmail();
 }
 
-Approval "1" --* "1" ApprovalWorkflow
 Approval  <|-- Workflow
 ApprovalUI "1" --> "1" Approval
 ```
