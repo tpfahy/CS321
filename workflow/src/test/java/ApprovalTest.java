@@ -31,5 +31,12 @@ public class ApprovalTest {
         assertEquals(approver.sendToReviewer(wf), true);
     }
 
+    @Test
+    void TestGetNextItem(){
+        WorkFlow wf = new WorkFlow();
+        Approval approver = new Approval();
+        assertEquals(approver.getNextItem(), null);
+    }
+
 
 }
