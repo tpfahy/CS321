@@ -3,7 +3,9 @@ package com.group16;
 public class Approval {
     private WorkFlow currentWF;
 
+    public Approval(){
 
+    }
 
     public WorkFlow getNextItem(){
 
@@ -18,12 +20,15 @@ public class Approval {
         this.currentWF = wf;
     }
 
-    public boolean Review(WorkFlow wf){
+    public boolean review(WorkFlow wf){
         return false;
     }
 
-    public void sendToReviewer(WorkFlow wf){
+    public boolean sendToReviewer(WorkFlow wf){
         // send to reviewer
+        // return true if successful
+        // return false if there is an error
+        return true;
     }
 
 }
