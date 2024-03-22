@@ -28,4 +28,8 @@ public class WorkflowObject {
     public void setWorkflowStatus(WorkflowStatus workflowStatus) {
         this.workflowStatus = workflowStatus;
     }
+
+    public void setGreenCardData(GreenCardData data){
+        this.data = data;
+    }
 }
