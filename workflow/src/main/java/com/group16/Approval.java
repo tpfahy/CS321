@@ -29,10 +29,10 @@ public class Approval {
         return false;
     }
 
-    // sends workflow to reviewer
+    // sends workflow to user
     // returns false if unsuccessful, returns true if successful
-    public boolean sendToReviewer(WorkFlow wf){
-        // send to reviewer
+    public boolean sendToUser(WorkFlow wf){
+        // send to user
         // return true if successful
         // return false if there is an error
         return true;
