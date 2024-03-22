@@ -26,5 +26,5 @@ class ApprovalUI {
 }
 
 Approval  <|-- Workflow
-ApprovalUI "1" --> "1" Approval
+ApprovalUI "1" <-- "1" Approval
 ```
