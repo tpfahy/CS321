@@ -13,7 +13,7 @@ class GreenCardFormData {
     + setters()
 }
 
-class ApprovalWorkflow {
+class DataEntryWorkflow {
     - currentFormData: GreenCardFormData
     - validationRules: any
 
@@ -32,12 +32,12 @@ class Workflow {
     + getNextWorkflowObject()
 }
 
-class ApprovalWorkflowUI {
-    - approvalWorkflow: ApprovalWorkflow
+class DataEntryWorkflowUI {
+    - dataentryWorkflow: DataEntry
     + displayForm()
 }
 
-GreenCardFormData "1" --* "1" ApprovalWorkflow
-ApprovalWorkflow  <|-- Workflow
-ApprovalWorkflowUI "1" --> "1" ApprovalWorkflow
+GreenCardFormData "1" --* "1" DataEntryWorkflow
+DataEntryWorkflow  <|-- Workflow
+DataEntryWorkflowUI "1" --> "1" DataEntryWorkflow
 ```
