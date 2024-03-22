@@ -1,5 +1,4 @@
 ```mermaid
-%%{ init : { "theme" : "dark", "flowchart" : { "curve" : "linear" }}}%%
 classDiagram
     class GreenCardFormData {
         - name: string
@@ -35,7 +34,7 @@ classDiagram
 
     class Workflow {
         << abstract >>
-        - currentWFObject: WorkflowObject
+        ~ currentWFObject: WorkflowObject
         + getWorkflowID()
         + countWorkflowObjects()
         + updateWorkflowObject()
@@ -48,13 +47,13 @@ classDiagram
         - db: any
         + connect()
         + disconnect()
-        + query()
+        + select()
         + insert()
         + update()
     }
     WorkflowObject "1" *-- "1" GreenCardFormData
     WorkflowObject "1" *-- "1" WorkflowStatus
     WorkflowObject "1" *-- "1" Workflow
-    Workflow "0..*" -- "1" Database
+    Workflow "0..*" --> "1" Database
 
 ```
