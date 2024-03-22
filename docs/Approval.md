@@ -33,7 +33,7 @@ class ApprovalUI {
     + generateEmail();
 }
 
-Approval "1" --* "1" DataEntryWorkflow
+Approval "1" --* "1" ApprovalWorkflow
 ApprovalWorkflow  <|-- Workflow
 ApprovalUI "1" --> "1" ApprovalWorkflow
 ```
