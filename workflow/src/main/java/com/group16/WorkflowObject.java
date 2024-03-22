@@ -8,7 +8,7 @@ public class WorkflowObject {
     // String for objectID
     private String objectID;
     // Green card data is stored in Data
-    private GreenCardData data;
+    private GreenCardFormData data;
     // The time the object is created
     private LocalDate dateCreated;
     // The time the workflow is modified
@@ -24,7 +24,7 @@ public class WorkflowObject {
     }
 
     // returns the green card data
-    public GreenCardData getFormData(){
+    public GreenCardFormData getFormData(){
         return this.data;
     }
 
@@ -49,7 +49,7 @@ public class WorkflowObject {
     }
 
     // sets the current green card data
-    public void setGreenCardData(GreenCardData data){
+    public void setGreenCardData(GreenCardFormData data){
         this.data = data;
     }
 

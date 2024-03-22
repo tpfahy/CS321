@@ -2,7 +2,7 @@ package com.group16;
 
 import java.time.LocalDate;
 
-public class GreenCardData {
+public class GreenCardFormData {
 	// user's name
 	private String name;
 	// user DOB

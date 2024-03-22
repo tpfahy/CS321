@@ -5,14 +5,14 @@ import static org.junit.jupiter.api.Assertions.*;
 import java.time.LocalDate;
 import java.time.Month;
 
-import com.group16.GreenCardData;
+import com.group16.GreenCardFormData;
 
-public class GreenCardDataTest {
-    GreenCardData greenCardData;
+public class GreenCardFormDataTest {
+    GreenCardFormData greenCardData;
 
     @BeforeEach
     public void setup() {
-        greenCardData = new GreenCardData();
+        greenCardData = new GreenCardFormData();
     }
 
     

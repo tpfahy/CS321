@@ -1,5 +1,5 @@
 
-import com.group16.GreenCardData;
+import com.group16.GreenCardFormData;
 import com.group16.WorkflowObject;
 import com.group16.WorkflowStatus;
 import org.junit.jupiter.api.BeforeEach;
@@ -26,7 +26,7 @@ public class WorkFlowObjectTest {
 
     @Test
     void TestWorkFlowObjectGreenCardFormData(){
-        GreenCardData gcData = new GreenCardData();
+        GreenCardFormData gcData = new GreenCardFormData();
         gcData.setName("Alice Jones");
         LocalDate DOB = LocalDate.of(2000, 4, 20);
         gcData.setDateOfBirth(DOB);
