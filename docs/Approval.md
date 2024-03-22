@@ -34,6 +34,6 @@ class ApprovalUI {
 }
 
 Approval "1" --* "1" DataEntryWorkflow
-DataEntryWorkflow  <|-- Workflow
+ApprovalWorkflow  <|-- Workflow
 ApprovalUI "1" --> "1" ApprovalWorkflow
 ```
