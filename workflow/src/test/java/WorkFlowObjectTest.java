@@ -11,11 +11,11 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class WorkFlowObjectTest {
 
-    WorkflowObject workflowObject = new WorkflowObject();
+    WorkflowObject workflowObject;
 
     @BeforeEach
     public void setup() {
-        WorkflowObject workflowObject = new WorkflowObject();
+        workflowObject = new WorkflowObject();
     }
 
     @Test

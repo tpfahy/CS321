@@ -1,6 +1,5 @@
 package com.group16;
 
-import java.io.Serializable;
 import java.util.Set;
 import java.util.function.Predicate;
 

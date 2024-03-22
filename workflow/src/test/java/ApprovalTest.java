@@ -3,7 +3,6 @@ import com.group16.WorkFlow;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.fail;
 
 public class ApprovalTest {
 
@@ -33,7 +32,7 @@ public class ApprovalTest {
 
     @Test
     void TestGetNextItem(){
-        WorkFlow wf = new WorkFlow();
+        // WorkFlow wf = new WorkFlow();
         Approval approver = new Approval();
         assertEquals(approver.getNextItem(), null);
     }

@@ -4,6 +4,7 @@ import java.util.Set;
 import java.util.function.Predicate;
 
 public class FileDatabase implements Database {
+    @SuppressWarnings("unused")
     private String filename;
     public FileDatabase(String filename) {
         this.filename = filename;

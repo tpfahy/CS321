@@ -4,7 +4,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import java.time.LocalDate;
 import java.time.Month;
-import java.util.Date;
 
 import com.group16.GreenCardData;
 
@@ -53,7 +52,7 @@ public class GreenCardDataTest {
 
     @Test
     public void setNormalResidenceSince_success() {
-        Date date = new Date();
+        LocalDate date = LocalDate.of(2003, Month.FEBRUARY, 1);
         
         greenCardData.setResidenceSince(date);
         assertEquals(date, greenCardData.getResidenceSince());

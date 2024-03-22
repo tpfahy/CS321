@@ -1,5 +1,3 @@
-import org.junit.jupiter.api.BeforeAll;
-
 import com.group16.FileDatabase;
 
 public class FileDatabaseAccessTest extends AbstractDatabaseTest{

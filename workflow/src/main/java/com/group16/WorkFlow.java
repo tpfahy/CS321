@@ -20,4 +20,13 @@ public class WorkFlow {
     public int getWfid(){
         return wfid;
     }
+
+    public WorkflowStatus getStep(){
+        return step;
+    }
+
+    public void setStep(WorkflowStatus step){
+        this.step = step;
+    }
+
 }

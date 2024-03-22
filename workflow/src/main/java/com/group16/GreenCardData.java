@@ -1,12 +1,11 @@
 package com.group16;
 
 import java.time.LocalDate;
-import java.util.Date;
-//TODO: Change instances of Date to LocalDate
+
 public class GreenCardData {
 	private String name;
 	private LocalDate dateOfBirth;
-	private Date residenceSince;
+	private LocalDate residenceSince;
 	private String aNumber;
 	private String ssn;
 	private String address;
@@ -28,11 +27,11 @@ public class GreenCardData {
 		this.dateOfBirth = dateOfBirth;
 	}
 
-	public Date getResidenceSince() {
+	public LocalDate getResidenceSince() {
 		return residenceSince;
 	}
 
-	public void setResidenceSince(Date residenceSince) {
+	public void setResidenceSince(LocalDate residenceSince) {
 		this.residenceSince = residenceSince;
 	}
 
