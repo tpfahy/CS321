@@ -13,4 +13,7 @@ public class Reviewer {
         return false;
     }
 
+    public String getUserInfo(){
+        return this.userInfo;
+    }
 }
