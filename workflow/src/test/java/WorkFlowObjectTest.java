@@ -10,7 +10,7 @@ import java.time.LocalDate;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class WorkFlowObjectTest {
-
+    // Testing for Workflow Object
     WorkflowObject workflowObject;
 
     @BeforeEach
@@ -21,7 +21,7 @@ public class WorkFlowObjectTest {
     @Test
     void TestObjectID(){
         assertEquals(workflowObject.getObjectID(), null);
-
+        // tests that calling .getObjectID() will return the expected result
     }
 
     @Test
@@ -33,6 +33,7 @@ public class WorkFlowObjectTest {
         gcData.setAddress("45 Wallaby Way");
         workflowObject.setGreenCardData(gcData);
         assertEquals(workflowObject.getFormData(), gcData);
+        // verifies that get form data will return the correct green card data
     }
 
     @Test
@@ -40,12 +41,13 @@ public class WorkFlowObjectTest {
 
         workflowObject.setWorkflowStatus(WorkflowStatus.APPROVAL);
         assertEquals(workflowObject.getWorkflowStatus(), WorkflowStatus.APPROVAL);
-
+        // tests that the correct workflow status is returned
     }
 
     @Test
     void TestFailSetWFStatus(){
         workflowObject.setWorkflowStatus(null);
         fail("Status must be APPROVED, COMPLETED, OR REVIEWER");
+        // generic fail test case to have cases that both
     }
 }
