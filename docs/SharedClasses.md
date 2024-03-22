@@ -37,8 +37,10 @@ classDiagram
         << abstract >>
         - currentWFObject: WorkflowObject
         + getWorkflowID()
+        + countWorkflowObjects()
         + updateWorkflowObject()
         + getCurrentWorkflowObject()
+        + getNextWorkflowObject()
     }
 
     class Database {
