@@ -3,10 +3,10 @@ classDiagram
 class Approval {
     - currentWorkflow: workflow
 
-    + getNextItem();
-    + getCurrentWorkflow();
-    + review();
-    + setCurrentWF();
+    + getNextItem()
+    + getCurrentWorkflow()
+    + review()
+    + setCurrentWF()
 }
 
 class ApprovalWorkflow {
@@ -29,11 +29,11 @@ class Workflow {
 }
 
 class ApprovalUI {
-    - approvalWorkflow: Approvaly
+    - approvalWorkflow: Approval
     + generateEmail();
 }
 
 Approval "1" --* "1" ApprovalWorkflow
-ApprovalWorkflow  <|-- Workflow
-ApprovalUI "1" --> "1" ApprovalWorkflow
+Approval  <|-- Workflow
+ApprovalUI "1" --> "1" Approval
 ```
