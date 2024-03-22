@@ -4,6 +4,9 @@ public class Reviewer {
     private String userInfo = "";
     // private database
 
+    public Reviewer(){
+
+    }
 
     public boolean Validate(String userInfo){
         return true;
