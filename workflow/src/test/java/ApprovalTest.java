@@ -27,11 +27,11 @@ public class ApprovalTest {
     }
 
     @Test
-    void TestSendToReviewer(){
+    void TestSendToUser(){
         // send to reviewer is currently hardcoded to return false for testing
         WorkFlow wf = new WorkFlow();
         Approval approver = new Approval();
-        assertEquals(approver.sendToReviewer(wf), true);
+        assertEquals(approver.sendToUser(wf), true);
     }
 
     @Test
