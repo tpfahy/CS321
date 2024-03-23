@@ -2,6 +2,9 @@ package com.group16;
 
 import java.time.LocalDate;
 
+/**
+ * Class that represents the data that is stored in a green card form.
+ */
 public class GreenCardFormData {
 	// user's name
 	private String name;

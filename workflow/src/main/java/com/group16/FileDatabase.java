@@ -3,6 +3,9 @@ package com.group16;
 import java.util.Set;
 import java.util.function.Predicate;
 
+/**
+ * A database that stores objects in a file.
+ */
 public class FileDatabase implements Database {
     @SuppressWarnings("unused")
     private String filename;

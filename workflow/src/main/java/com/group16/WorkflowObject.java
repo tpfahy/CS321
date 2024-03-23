@@ -3,6 +3,9 @@ package com.group16;
 
 import java.time.LocalDate;
 
+/**
+ * Stores data for a workflow object which represents the state of the application.
+ */
 public class WorkflowObject {
 
     // String for objectID

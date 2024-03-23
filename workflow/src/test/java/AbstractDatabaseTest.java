@@ -7,6 +7,10 @@ import org.junit.jupiter.api.Test;
 import com.group16.Database;
 import com.group16.WorkflowObject;
 
+/**
+ * Abstract class that contains tests for the database interface.
+ * Tests basic insert, update, delete, and select operations.
+ */
 public abstract class AbstractDatabaseTest {
     protected Database db;
 

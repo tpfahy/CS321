@@ -7,6 +7,9 @@ import java.time.Month;
 
 import com.group16.GreenCardFormData;
 
+/**
+ * Tests the validation of the GreenCardFormData class.
+ */
 public class GreenCardFormDataTest {
     GreenCardFormData greenCardData;
 
