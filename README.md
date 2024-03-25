@@ -1,6 +1,6 @@
-# CS321
-Project for CS 321
-Excited to work with the team
-Currently making more commits for the team
-Just trying to force this add
-one more time force add
+CS 321 Project:
+Updates:
+	We will be merging review/approval into something like a supervisor
+
+Duties:
+	Thomas: I will take over the data entry role from Aleksi
